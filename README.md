@@ -29,3 +29,5 @@ spring-actuator-custom-demo/
          └── SpringActuatorCustomDemoApplicationTests.java
 
 ```
+
+## ▶️ Como Executar
