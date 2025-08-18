@@ -12,3 +12,20 @@ Esse projeto complementa o aprendizado da Seção 6.3 da certificação Spring.
 - Endpoint REST simples /hello
 
 ## 📂 Estrutura do Projeto
+
+```bash
+spring-actuator-custom-demo/
+ ├── build.gradle.kts
+ ├── settings.gradle.kts
+ └── src
+     ├── main
+     │   ├── java/com/example/actuatorcustom
+     │   │   ├── SpringActuatorCustomDemoApplication.java
+     │   │   ├── controller/HelloController.java
+     │   │   ├── metrics/CustomMetrics.java
+     │   │   └── health/CustomHealthIndicator.java
+     │   └── resources/application.properties
+     └── test/java/com/example/actuatorcustom
+         └── SpringActuatorCustomDemoApplicationTests.java
+
+```
