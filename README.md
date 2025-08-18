@@ -10,3 +10,5 @@ Esse projeto complementa o aprendizado da Seção 6.3 da certificação Spring.
 - Métrica personalizada (custom.hello.counter)
 - Health indicator customizado (CustomService)
 - Endpoint REST simples /hello
+
+## 📂 Estrutura do Projeto
