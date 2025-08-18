@@ -41,3 +41,17 @@ git clone link do repositorio
 ./gradlew bootRun
 
 ```
+
+## 📊 Fluxo do Projeto 
+
+```mermaid
+flowchart TD
+    A[Client Request] -->|/hello| B[HelloController]
+    B --> C[CustomMetrics.incrementHelloCounter]
+    C --> D[Actuator Metrics Endpoint]
+    
+    A -->|/actuator/health| E[CustomHealthIndicator]
+    E --> F{Service Up?}
+    F -->|Yes| G[Health: UP]
+    F -->|No| H[Health: DOWN]
+```
