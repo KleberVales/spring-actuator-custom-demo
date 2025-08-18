@@ -31,3 +31,13 @@ spring-actuator-custom-demo/
 ```
 
 ## ▶️ Como Executar
+
+```bash
+
+# Clonar repositório
+git clone link do repositorio
+
+# Rodar aplicação
+./gradlew bootRun
+
+```
