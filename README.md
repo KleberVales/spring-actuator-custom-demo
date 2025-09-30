@@ -61,6 +61,9 @@ flowchart TD
 **Kleber Vales**  
 
 *Back-end Software Developer*  
+Java | Spring Framework | Cloud & DevOps | Git & GitHub | Scrum | JUnit 5 | Hibernate | Docker | Kubernete
+
+
 
 
 
